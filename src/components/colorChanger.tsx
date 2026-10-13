@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Fejlec from './fejlec';
+import Lablec from './lablec';
 
 export default function ColorChanger(){
     const [backgroundColor, setBackgroundColor] = useState('#ffffff')
@@ -18,6 +19,7 @@ export default function ColorChanger(){
                 }
                 setBackgroundColor(color);
             }}>Random Szín</button>
+            <Lablec/>
         </body>
     </>;
 
